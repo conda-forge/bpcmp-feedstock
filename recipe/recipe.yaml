@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "1.1.0"
+  version: "1.2.0"
   python_min: "3.10"
 
 package:
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/b/bpcmp/bpcmp-${{ version }}.tar.gz
-  sha256: 887b82dc2d6d982ac38d36f295c5c5ed2d2d28cf6f3461ca56934b8fb072ffd6
+  sha256: 6482ca6e57f17c2ab3f461159b563e37f8bba82abefa03ffcc5887d48f8277c0
   patches:
     - remove-setuptools-scm.patch
 
